@@ -2,8 +2,9 @@
 This is a raw dental website template made from pure css and html. 
 
 # Screenshots:
-![Dental-Hub](https://i.ibb.co/BZ6M1Wr/Ulimate-1.png)
 ![Dental-Hub](https://i.ibb.co/4TbjN1w/Ulimate-2.png)
+
+![Dental-Hub](https://i.ibb.co/BZ6M1Wr/Ulimate-1.png)
 
 # Use
 * Just download the repo
