@@ -1,0 +1,420 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+.stracture{
+	width: 960px;
+}
+
+body {
+    font-size: 14px;
+}
+
+.mainmenu ul li {
+    margin-right: 10px;
+}
+
+.mainmenu ul li a {
+	padding: 5px 10px;
+
+}
+
+.slider img{
+	width: 920px;
+}
+
+.single_promo {
+	width: 273px;
+	margin-right: 70px;
+}
+
+.quote{
+	font-size:22px;
+	width: 950px;
+}
+
+.quote_bottom_left {
+	width: 667px;
+	margin-right: 20px;
+}
+.quote_bottom_right {
+	width: 273px;
+}
+
+.single_promo_bottom{
+	width: 290px;
+	margin-right: 30px;
+}
+
+.single_promo_bottom_images img{
+	padding: 5px;
+	width: 250px;
+}
+
+.logo {
+	margin: 25px 0;	
+}
+
+.mainmenu {
+	margin-top: 37px;
+}
+
+.slider_images{
+	padding: 10px;
+}
+
+.slider{
+	margin-bottom: 50px;
+}
+
+.quote_left_text {
+
+}
+
+.quote_right_link {
+
+}
+
+.quote_right_link p{
+	float: left;
+	padding: 10px;
+}
+
+.quote_right_link a{
+	float: left;
+}
+
+.footer_copyright {
+	font-size: 12px;
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.stracture{
+	width: 750px;
+}
+
+body {
+    font-size: 14px;
+}
+
+.mainmenu ul li {
+    margin-right: 10px;
+}
+
+.mainmenu ul li a {
+	padding: 5px 10px;
+
+}
+
+.slider img{
+	width: 710px;
+}
+
+.single_promo {
+	width: 230px;
+	margin-right: 30px;
+}
+
+.quote{
+	font-size:20px;
+	width: 740px;
+}
+
+.quote_bottom_left {
+	width: 500px;
+	margin-right: 20px;
+}
+.quote_bottom_right {
+	width: 230px;
+}
+
+.single_promo_bottom{
+	width: 228px;
+	margin-right: 30px;
+}
+
+.single_promo_bottom_images img{
+	padding: 5px;
+	width: 188px;
+}
+
+.logo {
+	margin: 25px 0;	
+}
+
+.mainmenu {
+	margin-top: 37px;
+}
+
+.slider_images{
+	padding: 10px;
+}
+
+.slider{
+	margin-bottom: 50px;
+}
+
+.quote_left_text {
+
+}
+
+.quote_right_link {
+
+}
+
+.quote_right_link p{
+	float: left;
+	padding: 10px;
+}
+
+.quote_right_link a{
+	float: left;
+}
+
+.footer_copyright {
+	font-size: 12px;
+}
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.stracture{
+	width: 300px;
+}
+
+body {
+    font-size: 12px;
+}
+
+.mainmenu ul li {
+    margin-right: 5px;
+}
+
+.mainmenu ul li a {
+	padding: 5px 5px;
+
+}
+
+.logo {
+    margin: 25px 10px;
+}
+
+.mainmenu {
+	margin: -15px 15px 5px 0px;
+}
+
+.slider_images{
+	padding: 5px;
+}
+
+.slider img{
+	width: 270px;
+}
+
+.slider{
+	margin-bottom: 20px;
+}
+
+.quote{
+	font-size: 20px;
+	width: 290px;
+}
+
+.single_promo {
+	width: 300px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.quote_left_text {
+    width: 300px;
+    text-align: center;
+}
+
+.quote_right_link {
+	 width: 300px;
+    text-align: center;
+}
+
+.quote_right_link p{
+	float: none;
+	padding: 10px;
+}
+
+.quote_right_link a{
+	float: left;
+}
+
+.quote_right_link a{
+	float: none;
+	width: 175px;
+	margin: 0 auto;
+}
+
+.quote_bottom_left {
+	width: 300px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.quote_bottom_right {
+	width: 300px;
+	text-align: center;
+}
+
+.single_promo_bottom{
+	width: 298px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+
+.single_promo_bottom_images img{
+	padding: 5px;
+	width: 260px;
+}
+
+.footer_copyright {
+	font-size: 8px;
+}
+
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.stracture{
+	width: 450px;
+}
+
+
+.mainmenu ul li {
+    margin-right: 10px;
+}
+
+body {
+    font-size: 14px;
+}
+
+.mainmenu ul li a {
+	padding: 5px 10px;
+
+}
+
+.logo {
+    margin: 25px 100px;
+}
+
+.mainmenu {
+	margin: -15px 15px 5px 0px;
+}
+
+.slider_images{
+	padding: 5px;
+}
+
+.slider img{
+	width: 420px;
+}
+
+.slider{
+	margin-bottom: 20px;
+}
+
+.single_promo {
+	width: 450px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.quote{
+	font-size: 20px;
+	width: 440px;
+}
+
+.quote_left_text {
+    width: 440px;
+    text-align: center;
+}
+
+.quote_right_link {
+	 width: 440px;
+    text-align: center;
+}
+
+.quote_right_link p{
+	float: none;
+	padding: 10px;
+}
+
+.quote_right_link a{
+	float: left;
+}
+
+.quote_right_link a{
+	float: none;
+	width: 175px;
+	margin: 0 auto;
+}
+
+.quote_bottom_left {
+	width: 450px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.quote_bottom_right {
+	width: 450px;
+	text-align: center;
+}
+
+.single_promo_bottom{
+	width: 448px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+
+.single_promo_bottom_images img{
+	padding: 5px;
+	width: 408px;
+}
+
+.footer_copyright {
+	font-size: 12px;
+}
+
+}
